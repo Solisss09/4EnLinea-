@@ -70,3 +70,4 @@ C:\Users\Administrator\Desktop\Juego1\Juego\obj\Debug\net8.0-windows\refint\Jueg
 C:\Users\Administrator\Desktop\Juego1\Juego\obj\Debug\net8.0-windows\Juego.pdb
 C:\Users\Administrator\Desktop\Juego1\Juego\obj\Debug\net8.0-windows\Juego.genruntimeconfig.cache
 C:\Users\Administrator\Desktop\Juego1\Juego\obj\Debug\net8.0-windows\ref\Juego.dll
+C:\Users\Administrator\Desktop\Juego1\Juego\obj\Debug\net8.0-windows\Juego.sourcelink.json

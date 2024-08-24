@@ -21,6 +21,7 @@ namespace Juego
             InitializeComponent();
         }
 
+        //Here the songs are added
         private void btnAdjuntar_Click(object sender, EventArgs e)
         {
             OpenFileDialog CajaDeBusquedaDeArchivos = new OpenFileDialog();
@@ -40,6 +41,7 @@ namespace Juego
             }
         }
 
+        //Added songs will be displayed
         private void ltsCanciones_SelectedIndexChanged(object sender, EventArgs e)
         {
             Reproductor.URL = rutasArchivosMP3[ltsCanciones.SelectedIndex];
@@ -56,6 +58,7 @@ namespace Juego
             Reproductor.settings.volume = mTrackVolumen.Value;
         }
 
+        //Makeover when the Play button is touched
         private void btnPlay_Click(object sender, EventArgs e)
         {
             switch (play)
@@ -73,6 +76,7 @@ namespace Juego
             }
         }
 
+        //makes stop the song
         private void btnStop_Click(object sender, EventArgs e)
         {
             Reproductor.Ctlcontrols.stop();
@@ -80,6 +84,7 @@ namespace Juego
             play = false;
         }
 
+        //Controls the volume
         private void timer1_Tick(object sender, EventArgs e)
         {
             ActualizarDatosTrack();
@@ -87,7 +92,7 @@ namespace Juego
             mTrackVolumen.Value = Reproductor.settings.volume;
         }
         public void ActualizarDatosTrack()
-        //Control de tiempo maximo 
+        //Controls the time max
         {
             if (Reproductor.playState == WMPLib.WMPPlayState.wmppsPlaying)
             {

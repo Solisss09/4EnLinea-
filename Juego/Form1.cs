@@ -24,6 +24,7 @@ namespace Juego
 
         private void InicializarJuego()
         {
+            //Here the counter is initialized
             timer = new System.Windows.Forms.Timer();
             timer.Interval = 1000;
             timer.Tick += Timer_Tick;
@@ -46,6 +47,7 @@ namespace Juego
             lblTiempo.Text = tiempo.ToString(@"m\:ss");
         }
 
+        //Here the player's turn changes
         private void CambiarTurno()
         {
             turnoJugador = turnoJugador == 1 ? 2 : 1;
@@ -62,11 +64,12 @@ namespace Juego
             if (e.KeyCode == Keys.Enter)
             {
                 InsertarFichaDesdeTextBox();
-                e.Handled = true; // Prevenir que el sonido de error suene cuando se presiona Enter
+                e.Handled = true; // Prevent the error sound from sounding when pressing Enter
                 e.SuppressKeyPress = true;
             }
         }
 
+        //here the tokens appear
         private void InsertarFichaDesdeTextBox()
         {
             if (int.TryParse(txtColumna.Text, out int columnaSeleccionada))
@@ -151,6 +154,7 @@ namespace Juego
             return false;
         }
 
+        //the game restart
         private void ReiniciarJuego()
         {
             timer.Stop();
@@ -165,6 +169,7 @@ namespace Juego
             timer.Start();
         }
 
+        //Here the panel is drawn
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
             Graphics g = e.Graphics;
@@ -194,6 +199,7 @@ namespace Juego
             }
         }
 
+        //this restart the all game
         private void btnRestart_Click(object sender, EventArgs e)
         {
             timer.Stop();
@@ -208,6 +214,7 @@ namespace Juego
             timer.Start();
         }
 
+        //This sends the user to the music player
         private void button1_Click(object sender, EventArgs e)
         {
             Form2 frm2 = new Form2();

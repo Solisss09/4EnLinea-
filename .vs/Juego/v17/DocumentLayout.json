@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\Juego1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FED22F4C-6EEA-48EF-BE3B-FCF2311FD5F7}|Juego\\Juego.csproj|c:\\users\\administrator\\desktop\\juego1\\juego\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FED22F4C-6EEA-48EF-BE3B-FCF2311FD5F7}|Juego\\Juego.csproj|solutionrelative:juego\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FED22F4C-6EEA-48EF-BE3B-FCF2311FD5F7}|Juego\\Juego.csproj|c:\\users\\administrator\\desktop\\juego1\\juego\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FED22F4C-6EEA-48EF-BE3B-FCF2311FD5F7}|Juego\\Juego.csproj|solutionrelative:juego\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FED22F4C-6EEA-48EF-BE3B-FCF2311FD5F7}|Juego\\Juego.csproj|C:\\Users\\Administrator\\Desktop\\Juego1\\juego\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FED22F4C-6EEA-48EF-BE3B-FCF2311FD5F7}|Juego\\Juego.csproj|solutionrelative:juego\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FED22F4C-6EEA-48EF-BE3B-FCF2311FD5F7}|Juego\\Juego.csproj|c:\\users\\administrator\\desktop\\juego1\\juego\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FED22F4C-6EEA-48EF-BE3B-FCF2311FD5F7}|Juego\\Juego.csproj|solutionrelative:juego\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FED22F4C-6EEA-48EF-BE3B-FCF2311FD5F7}|Juego\\Juego.csproj|C:\\Users\\Administrator\\Desktop\\Juego1\\juego\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FED22F4C-6EEA-48EF-BE3B-FCF2311FD5F7}|Juego\\Juego.csproj|solutionrelative:juego\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{FED22F4C-6EEA-48EF-BE3B-FCF2311FD5F7}|Juego\\Juego.csproj|C:\\Users\\Administrator\\Desktop\\Juego1\\juego\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FED22F4C-6EEA-48EF-BE3B-FCF2311FD5F7}|Juego\\Juego.csproj|solutionrelative:juego\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,30 +26,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Juego1\\Juego\\Form1.cs",
               "RelativeDocumentMoniker": "Juego\\Form1.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Juego1\\Juego\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Juego\\Form1.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Juego1\\Juego\\Form1.cs [Design]",
+              "RelativeToolTip": "Juego\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T18:30:40.634Z"
+              "WhenOpened": "2024-08-21T18:30:40.634Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Juego1\\Juego\\Form1.cs",
               "RelativeDocumentMoniker": "Juego\\Form1.cs",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\Juego1\\Juego\\Form1.cs",
               "RelativeToolTip": "Juego\\Form1.cs",
-              "ViewState": "AQIAAMUAAAAAAAAAAAAAANYAAAAJAAAA",
+              "ViewState": "AQIAAMIAAAAAAAAAAAAAANgAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-14T17:00:24.456Z"
+              "WhenOpened": "2024-08-14T17:00:24.456Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -59,22 +61,21 @@
               "RelativeDocumentMoniker": "Juego\\Form2.cs",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\Juego1\\Juego\\Form2.cs",
               "RelativeToolTip": "Juego\\Form2.cs",
-              "ViewState": "AQIAAGEAAAAAAAAAAAAswHIAAAAAAAAA",
+              "ViewState": "AQIAAGEAAAAAAAAAAAAAAF4AAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-18T19:00:39.057Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Form2.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Juego1\\Juego\\Form2.cs",
               "RelativeDocumentMoniker": "Juego\\Form2.cs",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\Juego1\\Juego\\Form2.cs [Dise\u00F1o]",
               "RelativeToolTip": "Juego\\Form2.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T04:01:40.762Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-08-21T04:01:40.762Z"
             }
           ]
         }

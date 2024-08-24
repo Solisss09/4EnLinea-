@@ -198,7 +198,7 @@
             Controls.Add(Reproductor);
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Form2";
-            Text = "Reproductor MP3";
+            Text = "MP3 Player";
             ((System.ComponentModel.ISupportInitialize)Reproductor).EndInit();
             ((System.ComponentModel.ISupportInitialize)btnAdjuntar).EndInit();
             ((System.ComponentModel.ISupportInitialize)btnStop).EndInit();
